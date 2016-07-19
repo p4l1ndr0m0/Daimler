@@ -1,0 +1,1076 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2805D3AB1D130B2A0020E6F8 /* menuFotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2805D3AA1D130B2A0020E6F8 /* menuFotoViewController.swift */; };
+		2805D3AD1D130B510020E6F8 /* lunesFotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2805D3AC1D130B510020E6F8 /* lunesFotoViewController.swift */; };
+		2805D3AF1D130B620020E6F8 /* martesFotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2805D3AE1D130B620020E6F8 /* martesFotoViewController.swift */; };
+		2805D3B11D130B6C0020E6F8 /* miercolesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2805D3B01D130B6C0020E6F8 /* miercolesViewController.swift */; };
+		2805D3B31D130E810020E6F8 /* v1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2805D3B21D130E810020E6F8 /* v1ViewController.swift */; };
+		2805D3B51D130E8A0020E6F8 /* v2ViewCOntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2805D3B41D130E8A0020E6F8 /* v2ViewCOntroller.swift */; };
+		2805D3B71D130E930020E6F8 /* v3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2805D3B61D130E930020E6F8 /* v3ViewController.swift */; };
+		2813C87B1CECE75100999FE3 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C87A1CECE75100999FE3 /* 01.png */; };
+		2813C87D1CECEB6E00999FE3 /* Vista6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C87C1CECEB6E00999FE3 /* Vista6.png */; };
+		2813C87F1CECFBFA00999FE3 /* Vista6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2813C87E1CECFBFA00999FE3 /* Vista6.pdf */; };
+		2813C8811CED23C400999FE3 /* FotoSede.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8801CED23C400999FE3 /* FotoSede.png */; };
+		2813C88D1CED2F0300999FE3 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8841CED2F0300999FE3 /* 02.png */; };
+		2813C88E1CED2F0300999FE3 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8851CED2F0300999FE3 /* 03.png */; };
+		2813C88F1CED2F0300999FE3 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8861CED2F0300999FE3 /* 04.png */; };
+		2813C8901CED2F0300999FE3 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8871CED2F0300999FE3 /* 05.png */; };
+		2813C8911CED2F0300999FE3 /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8881CED2F0300999FE3 /* 06.png */; };
+		2813C8921CED2F0300999FE3 /* 07.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8891CED2F0300999FE3 /* 07.png */; };
+		2813C8931CED2F0300999FE3 /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C88A1CED2F0300999FE3 /* 08.png */; };
+		2813C8941CED2F0300999FE3 /* 09.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C88B1CED2F0300999FE3 /* 09.png */; };
+		2813C8951CED2F0300999FE3 /* 010.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C88C1CED2F0300999FE3 /* 010.png */; };
+		2813C89B1CED36AF00999FE3 /* 01_Cumbre.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8961CED36AF00999FE3 /* 01_Cumbre.png */; };
+		2813C89C1CED36AF00999FE3 /* 03_Agenda.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8971CED36AF00999FE3 /* 03_Agenda.png */; };
+		2813C89D1CED36AF00999FE3 /* 04_Notificaciones.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8981CED36AF00999FE3 /* 04_Notificaciones.png */; };
+		2813C89E1CED36AF00999FE3 /* 05_Presentaciones.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8991CED36AF00999FE3 /* 05_Presentaciones.png */; };
+		2813C89F1CED36AF00999FE3 /* 06_Fotografias.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C89A1CED36AF00999FE3 /* 06_Fotografias.png */; };
+		2813C8A11CED36B500999FE3 /* Sede.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8A01CED36B500999FE3 /* Sede.png */; };
+		2813C8A31CED39F600999FE3 /* Logos_footer.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8A21CED39F600999FE3 /* Logos_footer.png */; };
+		2813C8A51CED39FC00999FE3 /* FondoApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 2813C8A41CED39FC00999FE3 /* FondoApp.png */; };
+		284D05AC1D0F193100C956A2 /* listadoAgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05AB1D0F193100C956A2 /* listadoAgendaViewController.swift */; };
+		284D05AE1D0F19D500C956A2 /* listadoDosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05AD1D0F19D500C956A2 /* listadoDosViewController.swift */; };
+		284D05B01D0F19E100C956A2 /* listadoTresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05AF1D0F19E100C956A2 /* listadoTresViewController.swift */; };
+		284D05B21D0F1A4A00C956A2 /* t1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05B11D0F1A4A00C956A2 /* t1ViewController.swift */; };
+		284D05B41D0F1A5700C956A2 /* t2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05B31D0F1A5700C956A2 /* t2ViewController.swift */; };
+		284D05B61D0F1A6100C956A2 /* t3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05B51D0F1A6100C956A2 /* t3ViewController.swift */; };
+		284D05B81D0F230900C956A2 /* HomeUno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05B71D0F230900C956A2 /* HomeUno.swift */; };
+		284D05BA1D0F231200C956A2 /* HomeDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05B91D0F231200C956A2 /* HomeDos.swift */; };
+		284D05BC1D0F231900C956A2 /* HomeTres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05BB1D0F231900C956A2 /* HomeTres.swift */; };
+		284D05BE1D0F232100C956A2 /* LocationUno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05BD1D0F232100C956A2 /* LocationUno.swift */; };
+		284D05C01D0F232700C956A2 /* LocationDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05BF1D0F232700C956A2 /* LocationDos.swift */; };
+		284D05C21D0F232E00C956A2 /* LocationTres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05C11D0F232E00C956A2 /* LocationTres.swift */; };
+		2877DAE01CF8BB3400BBA1DE /* fotosFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877DADF1CF8BB3400BBA1DE /* fotosFullViewController.swift */; };
+		2877DAE21CF8BC3200BBA1DE /* fotoFullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2877DAE11CF8BC3200BBA1DE /* fotoFullViewController.swift */; };
+		2879FF1E1D00D3E300CA0EA1 /* AWSMobileHubHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D170F651CF883760051A9F0 /* AWSMobileHubHelper.framework */; };
+		28CB647A1D060E7E003ED81E /* Vista8_Agenda.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 28CB64791D060E7E003ED81E /* Vista8_Agenda.pdf */; };
+		28FE9D0F1CEAC5B300F6C4F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D0E1CEAC5B300F6C4F1 /* AppDelegate.swift */; };
+		28FE9D111CEAC5B300F6C4F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D101CEAC5B300F6C4F1 /* ViewController.swift */; };
+		28FE9D141CEAC5B300F6C4F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FE9D121CEAC5B300F6C4F1 /* Main.storyboard */; };
+		28FE9D171CEAC5B300F6C4F1 /* Daimler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D151CEAC5B300F6C4F1 /* Daimler.xcdatamodeld */; };
+		28FE9D191CEAC5B300F6C4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FE9D181CEAC5B300F6C4F1 /* Assets.xcassets */; };
+		28FE9D1C1CEAC5B300F6C4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FE9D1A1CEAC5B300F6C4F1 /* LaunchScreen.storyboard */; };
+		28FE9D271CEAC5B300F6C4F1 /* DaimlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D261CEAC5B300F6C4F1 /* DaimlerTests.swift */; };
+		28FE9D321CEAC5B300F6C4F1 /* DaimlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D311CEAC5B300F6C4F1 /* DaimlerUITests.swift */; };
+		28FE9D531CEAE07900F6C4F1 /* registroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D521CEAE07900F6C4F1 /* registroViewController.swift */; };
+		28FE9D551CEAE0BF00F6C4F1 /* cumbreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D541CEAE0BF00F6C4F1 /* cumbreViewController.swift */; };
+		28FE9D571CEAE0C900F6C4F1 /* sedeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D561CEAE0C900F6C4F1 /* sedeViewController.swift */; };
+		28FE9D591CEAE0D400F6C4F1 /* agendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D581CEAE0D400F6C4F1 /* agendaViewController.swift */; };
+		28FE9D5B1CEAE0E000F6C4F1 /* avisosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D5A1CEAE0E000F6C4F1 /* avisosViewController.swift */; };
+		28FE9D5D1CEAE0EC00F6C4F1 /* presentacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D5C1CEAE0EC00F6C4F1 /* presentacionesViewController.swift */; };
+		28FE9D5F1CEAE0F600F6C4F1 /* fotografiasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D5E1CEAE0F600F6C4F1 /* fotografiasViewController.swift */; };
+		28FE9D621CEAE1AC00F6C4F1 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D611CEAE1AC00F6C4F1 /* menuViewController.swift */; };
+		28FE9D641CEAEBF500F6C4F1 /* vistaPresentacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D631CEAEBF500F6C4F1 /* vistaPresentacionesViewController.swift */; };
+		28FE9D661CEAEDCA00F6C4F1 /* graciasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D651CEAEDCA00F6C4F1 /* graciasViewController.swift */; };
+		28FE9D681CEAEE0300F6C4F1 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D671CEAEE0300F6C4F1 /* HomeModel.swift */; };
+		28FE9D6A1CEAEE0C00F6C4F1 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D691CEAEE0C00F6C4F1 /* LocationModel.swift */; };
+		28FE9D6C1CEB08F700F6C4F1 /* vistaFotografiasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE9D6B1CEB08F700F6C4F1 /* vistaFotografiasViewController.swift */; };
+		2E9BEC76359822FBA463A358 /* Pods_Cumbre_Postventa_2016.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7467D2923F6BC7F341D5E5C2 /* Pods_Cumbre_Postventa_2016.framework */; };
+		750641B853258B9574179283 /* Pods_Cumbre_Postventa_2016Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E28BD5A12DE15ABB8EAD72 /* Pods_Cumbre_Postventa_2016Tests.framework */; };
+		9D170F5A1CF875630051A9F0 /* HomeAvisos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D170F591CF875630051A9F0 /* HomeAvisos.swift */; };
+		9D170F5C1CF875730051A9F0 /* LocationAvisos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D170F5B1CF875730051A9F0 /* LocationAvisos.swift */; };
+		9D170F641CF87E470051A9F0 /* AWSMobileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D170F631CF87E470051A9F0 /* AWSMobileClient.swift */; };
+		9D170F681CF8AAD00051A9F0 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D170F671CF8AAD00051A9F0 /* UtilityFunctions.swift */; };
+		9D316F551CF14942004BC6DF /* Splash_1080.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D316F541CF14942004BC6DF /* Splash_1080.png */; };
+		9D497EAF1CF7AEBE00D90DB5 /* menuBlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D497EAE1CF7AEBE00D90DB5 /* menuBlockViewController.swift */; };
+		9D497EB11CF7AF8C00D90DB5 /* sedeBlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D497EB01CF7AF8C00D90DB5 /* sedeBlockViewController.swift */; };
+		9D497EB31CF7BA8E00D90DB5 /* avisoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D497EB21CF7BA8E00D90DB5 /* avisoViewController.swift */; };
+		CD255D334A6818FD1ADCAD30 /* Pods_Cumbre_Postventa_2016UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3F983F70B27CC14AC5E321 /* Pods_Cumbre_Postventa_2016UITests.framework */; };
+		DEF74DDDFCA50E6ECB42DEAC /* Pods_DaimlerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D88B7D6BAEF97E40A610DB /* Pods_DaimlerUITests.framework */; };
+		FDF5440CFAE9B9E1BE1B5BAA /* Pods_DaimlerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01284F6E2977012F169C8334 /* Pods_DaimlerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28FE9D231CEAC5B300F6C4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28FE9D031CEAC5B300F6C4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FE9D0A1CEAC5B300F6C4F1;
+			remoteInfo = Daimler;
+		};
+		28FE9D2E1CEAC5B300F6C4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28FE9D031CEAC5B300F6C4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FE9D0A1CEAC5B300F6C4F1;
+			remoteInfo = Daimler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01284F6E2977012F169C8334 /* Pods_DaimlerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaimlerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E0F625D0C3BAE5DC5871EF9 /* Pods-Daimler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daimler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daimler/Pods-Daimler.debug.xcconfig"; sourceTree = "<group>"; };
+		104B03143A78FC6CFD6726ED /* Pods-DaimlerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaimlerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaimlerUITests/Pods-DaimlerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E9200F30EE8FDDE178D6766 /* Pods-Cumbre Postventa 2016UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cumbre Postventa 2016UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cumbre Postventa 2016UITests/Pods-Cumbre Postventa 2016UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2805D3AA1D130B2A0020E6F8 /* menuFotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuFotoViewController.swift; sourceTree = "<group>"; };
+		2805D3AC1D130B510020E6F8 /* lunesFotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lunesFotoViewController.swift; sourceTree = "<group>"; };
+		2805D3AE1D130B620020E6F8 /* martesFotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = martesFotoViewController.swift; sourceTree = "<group>"; };
+		2805D3B01D130B6C0020E6F8 /* miercolesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = miercolesViewController.swift; sourceTree = "<group>"; };
+		2805D3B21D130E810020E6F8 /* v1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = v1ViewController.swift; sourceTree = "<group>"; };
+		2805D3B41D130E8A0020E6F8 /* v2ViewCOntroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = v2ViewCOntroller.swift; sourceTree = "<group>"; };
+		2805D3B61D130E930020E6F8 /* v3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = v3ViewController.swift; sourceTree = "<group>"; };
+		2813C87A1CECE75100999FE3 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		2813C87C1CECEB6E00999FE3 /* Vista6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vista6.png; sourceTree = "<group>"; };
+		2813C87E1CECFBFA00999FE3 /* Vista6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Vista6.pdf; sourceTree = "<group>"; };
+		2813C8801CED23C400999FE3 /* FotoSede.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FotoSede.png; sourceTree = "<group>"; };
+		2813C8841CED2F0300999FE3 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		2813C8851CED2F0300999FE3 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		2813C8861CED2F0300999FE3 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		2813C8871CED2F0300999FE3 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		2813C8881CED2F0300999FE3 /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		2813C8891CED2F0300999FE3 /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07.png; sourceTree = "<group>"; };
+		2813C88A1CED2F0300999FE3 /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08.png; sourceTree = "<group>"; };
+		2813C88B1CED2F0300999FE3 /* 09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09.png; sourceTree = "<group>"; };
+		2813C88C1CED2F0300999FE3 /* 010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 010.png; sourceTree = "<group>"; };
+		2813C8961CED36AF00999FE3 /* 01_Cumbre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01_Cumbre.png; sourceTree = "<group>"; };
+		2813C8971CED36AF00999FE3 /* 03_Agenda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03_Agenda.png; sourceTree = "<group>"; };
+		2813C8981CED36AF00999FE3 /* 04_Notificaciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04_Notificaciones.png; sourceTree = "<group>"; };
+		2813C8991CED36AF00999FE3 /* 05_Presentaciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05_Presentaciones.png; sourceTree = "<group>"; };
+		2813C89A1CED36AF00999FE3 /* 06_Fotografias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06_Fotografias.png; sourceTree = "<group>"; };
+		2813C8A01CED36B500999FE3 /* Sede.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sede.png; sourceTree = "<group>"; };
+		2813C8A21CED39F600999FE3 /* Logos_footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logos_footer.png; sourceTree = "<group>"; };
+		2813C8A41CED39FC00999FE3 /* FondoApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FondoApp.png; sourceTree = "<group>"; };
+		284D05AB1D0F193100C956A2 /* listadoAgendaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listadoAgendaViewController.swift; sourceTree = "<group>"; };
+		284D05AD1D0F19D500C956A2 /* listadoDosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listadoDosViewController.swift; sourceTree = "<group>"; };
+		284D05AF1D0F19E100C956A2 /* listadoTresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listadoTresViewController.swift; sourceTree = "<group>"; };
+		284D05B11D0F1A4A00C956A2 /* t1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = t1ViewController.swift; sourceTree = "<group>"; };
+		284D05B31D0F1A5700C956A2 /* t2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = t2ViewController.swift; sourceTree = "<group>"; };
+		284D05B51D0F1A6100C956A2 /* t3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = t3ViewController.swift; sourceTree = "<group>"; };
+		284D05B71D0F230900C956A2 /* HomeUno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeUno.swift; sourceTree = "<group>"; };
+		284D05B91D0F231200C956A2 /* HomeDos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDos.swift; sourceTree = "<group>"; };
+		284D05BB1D0F231900C956A2 /* HomeTres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTres.swift; sourceTree = "<group>"; };
+		284D05BD1D0F232100C956A2 /* LocationUno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationUno.swift; sourceTree = "<group>"; };
+		284D05BF1D0F232700C956A2 /* LocationDos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDos.swift; sourceTree = "<group>"; };
+		284D05C11D0F232E00C956A2 /* LocationTres.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTres.swift; sourceTree = "<group>"; };
+		2877DADF1CF8BB3400BBA1DE /* fotosFullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fotosFullViewController.swift; sourceTree = "<group>"; };
+		2877DAE11CF8BC3200BBA1DE /* fotoFullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fotoFullViewController.swift; sourceTree = "<group>"; };
+		2879FF1C1D00CEB700CA0EA1 /* AWSMobileHubHelper 17-48-47-856.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AWSMobileHubHelper 17-48-47-856.framework"; path = "AmazonAws/AWSMobileHubHelper 17-48-47-856.framework"; sourceTree = "<group>"; };
+		28CB64791D060E7E003ED81E /* Vista8_Agenda.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Vista8_Agenda.pdf; sourceTree = "<group>"; };
+		28FE9D0B1CEAC5B300F6C4F1 /* Cumbre Postventa 2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cumbre Postventa 2016.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FE9D0E1CEAC5B300F6C4F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28FE9D101CEAC5B300F6C4F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28FE9D131CEAC5B300F6C4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28FE9D161CEAC5B300F6C4F1 /* Daimler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Daimler.xcdatamodel; sourceTree = "<group>"; };
+		28FE9D181CEAC5B300F6C4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28FE9D1B1CEAC5B300F6C4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28FE9D1D1CEAC5B300F6C4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FE9D221CEAC5B300F6C4F1 /* Cumbre Postventa 2016.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cumbre Postventa 2016.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FE9D261CEAC5B300F6C4F1 /* DaimlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaimlerTests.swift; sourceTree = "<group>"; };
+		28FE9D281CEAC5B300F6C4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FE9D2D1CEAC5B300F6C4F1 /* Cumbre Postventa 2016.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cumbre Postventa 2016.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FE9D311CEAC5B300F6C4F1 /* DaimlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaimlerUITests.swift; sourceTree = "<group>"; };
+		28FE9D331CEAC5B300F6C4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FE9D521CEAE07900F6C4F1 /* registroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registroViewController.swift; sourceTree = "<group>"; };
+		28FE9D541CEAE0BF00F6C4F1 /* cumbreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cumbreViewController.swift; sourceTree = "<group>"; };
+		28FE9D561CEAE0C900F6C4F1 /* sedeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sedeViewController.swift; sourceTree = "<group>"; };
+		28FE9D581CEAE0D400F6C4F1 /* agendaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = agendaViewController.swift; sourceTree = "<group>"; };
+		28FE9D5A1CEAE0E000F6C4F1 /* avisosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = avisosViewController.swift; sourceTree = "<group>"; };
+		28FE9D5C1CEAE0EC00F6C4F1 /* presentacionesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = presentacionesViewController.swift; sourceTree = "<group>"; };
+		28FE9D5E1CEAE0F600F6C4F1 /* fotografiasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fotografiasViewController.swift; sourceTree = "<group>"; };
+		28FE9D611CEAE1AC00F6C4F1 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		28FE9D631CEAEBF500F6C4F1 /* vistaPresentacionesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaPresentacionesViewController.swift; sourceTree = "<group>"; };
+		28FE9D651CEAEDCA00F6C4F1 /* graciasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = graciasViewController.swift; sourceTree = "<group>"; };
+		28FE9D671CEAEE0300F6C4F1 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		28FE9D691CEAEE0C00F6C4F1 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		28FE9D6B1CEB08F700F6C4F1 /* vistaFotografiasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaFotografiasViewController.swift; sourceTree = "<group>"; };
+		3D2A9A0CC8D9204D496333AD /* Pods-Daimler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daimler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daimler/Pods-Daimler.release.xcconfig"; sourceTree = "<group>"; };
+		506247FC78C60972DCB4325E /* Pods-Cumbre Postventa 2016.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cumbre Postventa 2016.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cumbre Postventa 2016/Pods-Cumbre Postventa 2016.release.xcconfig"; sourceTree = "<group>"; };
+		7467D2923F6BC7F341D5E5C2 /* Pods_Cumbre_Postventa_2016.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cumbre_Postventa_2016.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D88B7D6BAEF97E40A610DB /* Pods_DaimlerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DaimlerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3F983F70B27CC14AC5E321 /* Pods_Cumbre_Postventa_2016UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cumbre_Postventa_2016UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D64C625359FAE67A2A54C59 /* Pods-Cumbre Postventa 2016Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cumbre Postventa 2016Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cumbre Postventa 2016Tests/Pods-Cumbre Postventa 2016Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9172AA6629C8552590952B5B /* Pods-DaimlerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaimlerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaimlerUITests/Pods-DaimlerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94CE1A5F5908D4B141A3CBA2 /* Pods-DaimlerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaimlerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DaimlerTests/Pods-DaimlerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9914917409B8C1F5A6D5642A /* Pods-Cumbre Postventa 2016Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cumbre Postventa 2016Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cumbre Postventa 2016Tests/Pods-Cumbre Postventa 2016Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D170F591CF875630051A9F0 /* HomeAvisos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAvisos.swift; sourceTree = "<group>"; };
+		9D170F5B1CF875730051A9F0 /* LocationAvisos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAvisos.swift; sourceTree = "<group>"; };
+		9D170F631CF87E470051A9F0 /* AWSMobileClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSMobileClient.swift; sourceTree = "<group>"; };
+		9D170F651CF883760051A9F0 /* AWSMobileHubHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMobileHubHelper.framework; path = AmazonAws/AWSMobileHubHelper.framework; sourceTree = "<group>"; };
+		9D170F671CF8AAD00051A9F0 /* UtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+		9D316F541CF14942004BC6DF /* Splash_1080.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_1080.png; sourceTree = "<group>"; };
+		9D497EAE1CF7AEBE00D90DB5 /* menuBlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuBlockViewController.swift; sourceTree = "<group>"; };
+		9D497EB01CF7AF8C00D90DB5 /* sedeBlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sedeBlockViewController.swift; sourceTree = "<group>"; };
+		9D497EB21CF7BA8E00D90DB5 /* avisoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = avisoViewController.swift; sourceTree = "<group>"; };
+		9DDC068A4C27DE0A1F47B67C /* Pods-Cumbre Postventa 2016.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cumbre Postventa 2016.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cumbre Postventa 2016/Pods-Cumbre Postventa 2016.debug.xcconfig"; sourceTree = "<group>"; };
+		A9E28BD5A12DE15ABB8EAD72 /* Pods_Cumbre_Postventa_2016Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cumbre_Postventa_2016Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B58DD6EAA020A9F83D388E /* Pods-Cumbre Postventa 2016UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cumbre Postventa 2016UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cumbre Postventa 2016UITests/Pods-Cumbre Postventa 2016UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7F1AC1F7D5CB70DCD9B41D4 /* Pods_Daimler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daimler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2000AB69B2456C4CD4AEEA /* Pods-DaimlerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DaimlerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DaimlerTests/Pods-DaimlerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28FE9D081CEAC5B300F6C4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2879FF1E1D00D3E300CA0EA1 /* AWSMobileHubHelper.framework in Frameworks */,
+				2E9BEC76359822FBA463A358 /* Pods_Cumbre_Postventa_2016.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FE9D1F1CEAC5B300F6C4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF5440CFAE9B9E1BE1B5BAA /* Pods_DaimlerTests.framework in Frameworks */,
+				750641B853258B9574179283 /* Pods_Cumbre_Postventa_2016Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FE9D2A1CEAC5B300F6C4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF74DDDFCA50E6ECB42DEAC /* Pods_DaimlerUITests.framework in Frameworks */,
+				CD255D334A6818FD1ADCAD30 /* Pods_Cumbre_Postventa_2016UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2305F984C9A32C91F3897EF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2879FF1C1D00CEB700CA0EA1 /* AWSMobileHubHelper 17-48-47-856.framework */,
+				9D170F651CF883760051A9F0 /* AWSMobileHubHelper.framework */,
+				E7F1AC1F7D5CB70DCD9B41D4 /* Pods_Daimler.framework */,
+				01284F6E2977012F169C8334 /* Pods_DaimlerTests.framework */,
+				84D88B7D6BAEF97E40A610DB /* Pods_DaimlerUITests.framework */,
+				7467D2923F6BC7F341D5E5C2 /* Pods_Cumbre_Postventa_2016.framework */,
+				A9E28BD5A12DE15ABB8EAD72 /* Pods_Cumbre_Postventa_2016Tests.framework */,
+				8B3F983F70B27CC14AC5E321 /* Pods_Cumbre_Postventa_2016UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28FE9D021CEAC5B300F6C4F1 = {
+			isa = PBXGroup;
+			children = (
+				28FE9D0D1CEAC5B300F6C4F1 /* Daimler */,
+				28FE9D251CEAC5B300F6C4F1 /* DaimlerTests */,
+				28FE9D301CEAC5B300F6C4F1 /* DaimlerUITests */,
+				28FE9D0C1CEAC5B300F6C4F1 /* Products */,
+				5B6872CA52B872D7D7365EFB /* Pods */,
+				2305F984C9A32C91F3897EF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28FE9D0C1CEAC5B300F6C4F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28FE9D0B1CEAC5B300F6C4F1 /* Cumbre Postventa 2016.app */,
+				28FE9D221CEAC5B300F6C4F1 /* Cumbre Postventa 2016.xctest */,
+				28FE9D2D1CEAC5B300F6C4F1 /* Cumbre Postventa 2016.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28FE9D0D1CEAC5B300F6C4F1 /* Daimler */ = {
+			isa = PBXGroup;
+			children = (
+				28FE9D601CEAE19F00F6C4F1 /* menu */,
+				28FE9D451CEADEF800F6C4F1 /* fotografias */,
+				28FE9D441CEADEEF00F6C4F1 /* presentaciones */,
+				28FE9D431CEADEE900F6C4F1 /* avisos */,
+				28FE9D421CEADEE200F6C4F1 /* agenda */,
+				28FE9D411CEADEDB00F6C4F1 /* sede */,
+				28FE9D401CEADED400F6C4F1 /* cumbre */,
+				28FE9D3F1CEADECC00F6C4F1 /* registro */,
+				28FE9D0E1CEAC5B300F6C4F1 /* AppDelegate.swift */,
+				28FE9D101CEAC5B300F6C4F1 /* ViewController.swift */,
+				9D170F671CF8AAD00051A9F0 /* UtilityFunctions.swift */,
+				9D170F631CF87E470051A9F0 /* AWSMobileClient.swift */,
+				28FE9D121CEAC5B300F6C4F1 /* Main.storyboard */,
+				28FE9D181CEAC5B300F6C4F1 /* Assets.xcassets */,
+				28FE9D1A1CEAC5B300F6C4F1 /* LaunchScreen.storyboard */,
+				28FE9D1D1CEAC5B300F6C4F1 /* Info.plist */,
+				28FE9D151CEAC5B300F6C4F1 /* Daimler.xcdatamodeld */,
+			);
+			path = Daimler;
+			sourceTree = "<group>";
+		};
+		28FE9D251CEAC5B300F6C4F1 /* DaimlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				28FE9D261CEAC5B300F6C4F1 /* DaimlerTests.swift */,
+				28FE9D281CEAC5B300F6C4F1 /* Info.plist */,
+			);
+			path = DaimlerTests;
+			sourceTree = "<group>";
+		};
+		28FE9D301CEAC5B300F6C4F1 /* DaimlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28FE9D311CEAC5B300F6C4F1 /* DaimlerUITests.swift */,
+				28FE9D331CEAC5B300F6C4F1 /* Info.plist */,
+			);
+			path = DaimlerUITests;
+			sourceTree = "<group>";
+		};
+		28FE9D3F1CEADECC00F6C4F1 /* registro */ = {
+			isa = PBXGroup;
+			children = (
+				28FE9D521CEAE07900F6C4F1 /* registroViewController.swift */,
+			);
+			name = registro;
+			sourceTree = "<group>";
+		};
+		28FE9D401CEADED400F6C4F1 /* cumbre */ = {
+			isa = PBXGroup;
+			children = (
+				28FE9D541CEAE0BF00F6C4F1 /* cumbreViewController.swift */,
+			);
+			name = cumbre;
+			sourceTree = "<group>";
+		};
+		28FE9D411CEADEDB00F6C4F1 /* sede */ = {
+			isa = PBXGroup;
+			children = (
+				28FE9D561CEAE0C900F6C4F1 /* sedeViewController.swift */,
+				9D497EB01CF7AF8C00D90DB5 /* sedeBlockViewController.swift */,
+			);
+			name = sede;
+			sourceTree = "<group>";
+		};
+		28FE9D421CEADEE200F6C4F1 /* agenda */ = {
+			isa = PBXGroup;
+			children = (
+				28FE9D581CEAE0D400F6C4F1 /* agendaViewController.swift */,
+				284D05B11D0F1A4A00C956A2 /* t1ViewController.swift */,
+				284D05B31D0F1A5700C956A2 /* t2ViewController.swift */,
+				284D05B51D0F1A6100C956A2 /* t3ViewController.swift */,
+				284D05AB1D0F193100C956A2 /* listadoAgendaViewController.swift */,
+				284D05AD1D0F19D500C956A2 /* listadoDosViewController.swift */,
+				284D05AF1D0F19E100C956A2 /* listadoTresViewController.swift */,
+				284D05B71D0F230900C956A2 /* HomeUno.swift */,
+				284D05B91D0F231200C956A2 /* HomeDos.swift */,
+				284D05BB1D0F231900C956A2 /* HomeTres.swift */,
+				284D05BD1D0F232100C956A2 /* LocationUno.swift */,
+				284D05BF1D0F232700C956A2 /* LocationDos.swift */,
+				284D05C11D0F232E00C956A2 /* LocationTres.swift */,
+			);
+			name = agenda;
+			sourceTree = "<group>";
+		};
+		28FE9D431CEADEE900F6C4F1 /* avisos */ = {
+			isa = PBXGroup;
+			children = (
+				28FE9D5A1CEAE0E000F6C4F1 /* avisosViewController.swift */,
+				9D497EB21CF7BA8E00D90DB5 /* avisoViewController.swift */,
+				9D170F591CF875630051A9F0 /* HomeAvisos.swift */,
+				9D170F5B1CF875730051A9F0 /* LocationAvisos.swift */,
+			);
+			name = avisos;
+			sourceTree = "<group>";
+		};
+		28FE9D441CEADEEF00F6C4F1 /* presentaciones */ = {
+			isa = PBXGroup;
+			children = (
+				28FE9D5C1CEAE0EC00F6C4F1 /* presentacionesViewController.swift */,
+				28FE9D631CEAEBF500F6C4F1 /* vistaPresentacionesViewController.swift */,
+				28FE9D671CEAEE0300F6C4F1 /* HomeModel.swift */,
+				28FE9D691CEAEE0C00F6C4F1 /* LocationModel.swift */,
+			);
+			name = presentaciones;
+			sourceTree = "<group>";
+		};
+		28FE9D451CEADEF800F6C4F1 /* fotografias */ = {
+			isa = PBXGroup;
+			children = (
+				9D316F541CF14942004BC6DF /* Splash_1080.png */,
+				28FE9D5E1CEAE0F600F6C4F1 /* fotografiasViewController.swift */,
+				2805D3AA1D130B2A0020E6F8 /* menuFotoViewController.swift */,
+				2805D3B21D130E810020E6F8 /* v1ViewController.swift */,
+				2805D3B41D130E8A0020E6F8 /* v2ViewCOntroller.swift */,
+				2805D3B61D130E930020E6F8 /* v3ViewController.swift */,
+				2805D3AC1D130B510020E6F8 /* lunesFotoViewController.swift */,
+				2805D3AE1D130B620020E6F8 /* martesFotoViewController.swift */,
+				2805D3B01D130B6C0020E6F8 /* miercolesViewController.swift */,
+				28FE9D6B1CEB08F700F6C4F1 /* vistaFotografiasViewController.swift */,
+				28CB64791D060E7E003ED81E /* Vista8_Agenda.pdf */,
+				2813C87A1CECE75100999FE3 /* 01.png */,
+				2813C87C1CECEB6E00999FE3 /* Vista6.png */,
+				2813C87E1CECFBFA00999FE3 /* Vista6.pdf */,
+				2813C8801CED23C400999FE3 /* FotoSede.png */,
+				2813C8841CED2F0300999FE3 /* 02.png */,
+				2813C8851CED2F0300999FE3 /* 03.png */,
+				2813C8861CED2F0300999FE3 /* 04.png */,
+				2813C8871CED2F0300999FE3 /* 05.png */,
+				2813C8881CED2F0300999FE3 /* 06.png */,
+				2813C8891CED2F0300999FE3 /* 07.png */,
+				2813C88A1CED2F0300999FE3 /* 08.png */,
+				2813C88B1CED2F0300999FE3 /* 09.png */,
+				2813C88C1CED2F0300999FE3 /* 010.png */,
+				2813C8961CED36AF00999FE3 /* 01_Cumbre.png */,
+				2813C8971CED36AF00999FE3 /* 03_Agenda.png */,
+				2813C8981CED36AF00999FE3 /* 04_Notificaciones.png */,
+				2813C8991CED36AF00999FE3 /* 05_Presentaciones.png */,
+				2813C89A1CED36AF00999FE3 /* 06_Fotografias.png */,
+				2813C8A01CED36B500999FE3 /* Sede.png */,
+				2813C8A21CED39F600999FE3 /* Logos_footer.png */,
+				2813C8A41CED39FC00999FE3 /* FondoApp.png */,
+				2877DADF1CF8BB3400BBA1DE /* fotosFullViewController.swift */,
+				2877DAE11CF8BC3200BBA1DE /* fotoFullViewController.swift */,
+			);
+			name = fotografias;
+			sourceTree = "<group>";
+		};
+		28FE9D601CEAE19F00F6C4F1 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				28FE9D611CEAE1AC00F6C4F1 /* menuViewController.swift */,
+				28FE9D651CEAEDCA00F6C4F1 /* graciasViewController.swift */,
+				9D497EAE1CF7AEBE00D90DB5 /* menuBlockViewController.swift */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		5B6872CA52B872D7D7365EFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E0F625D0C3BAE5DC5871EF9 /* Pods-Daimler.debug.xcconfig */,
+				3D2A9A0CC8D9204D496333AD /* Pods-Daimler.release.xcconfig */,
+				94CE1A5F5908D4B141A3CBA2 /* Pods-DaimlerTests.debug.xcconfig */,
+				EC2000AB69B2456C4CD4AEEA /* Pods-DaimlerTests.release.xcconfig */,
+				104B03143A78FC6CFD6726ED /* Pods-DaimlerUITests.debug.xcconfig */,
+				9172AA6629C8552590952B5B /* Pods-DaimlerUITests.release.xcconfig */,
+				9DDC068A4C27DE0A1F47B67C /* Pods-Cumbre Postventa 2016.debug.xcconfig */,
+				506247FC78C60972DCB4325E /* Pods-Cumbre Postventa 2016.release.xcconfig */,
+				8D64C625359FAE67A2A54C59 /* Pods-Cumbre Postventa 2016Tests.debug.xcconfig */,
+				9914917409B8C1F5A6D5642A /* Pods-Cumbre Postventa 2016Tests.release.xcconfig */,
+				D2B58DD6EAA020A9F83D388E /* Pods-Cumbre Postventa 2016UITests.debug.xcconfig */,
+				1E9200F30EE8FDDE178D6766 /* Pods-Cumbre Postventa 2016UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28FE9D0A1CEAC5B300F6C4F1 /* Cumbre Postventa 2016 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FE9D361CEAC5B300F6C4F1 /* Build configuration list for PBXNativeTarget "Cumbre Postventa 2016" */;
+			buildPhases = (
+				F2B50F41DA234D0093B608AD /* 📦 Check Pods Manifest.lock */,
+				28FE9D071CEAC5B300F6C4F1 /* Sources */,
+				28FE9D081CEAC5B300F6C4F1 /* Frameworks */,
+				28FE9D091CEAC5B300F6C4F1 /* Resources */,
+				DAB13A7FE35B063E486A84DC /* 📦 Embed Pods Frameworks */,
+				B137AA634FEA4056D4A899EA /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cumbre Postventa 2016";
+			productName = Daimler;
+			productReference = 28FE9D0B1CEAC5B300F6C4F1 /* Cumbre Postventa 2016.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28FE9D211CEAC5B300F6C4F1 /* Cumbre Postventa 2016Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FE9D391CEAC5B300F6C4F1 /* Build configuration list for PBXNativeTarget "Cumbre Postventa 2016Tests" */;
+			buildPhases = (
+				823FB75FE5CB271588E81273 /* 📦 Check Pods Manifest.lock */,
+				28FE9D1E1CEAC5B300F6C4F1 /* Sources */,
+				28FE9D1F1CEAC5B300F6C4F1 /* Frameworks */,
+				28FE9D201CEAC5B300F6C4F1 /* Resources */,
+				91E581EC76D8DDDE042A2F59 /* 📦 Embed Pods Frameworks */,
+				065E86AA8A24B6FA232960F2 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FE9D241CEAC5B300F6C4F1 /* PBXTargetDependency */,
+			);
+			name = "Cumbre Postventa 2016Tests";
+			productName = DaimlerTests;
+			productReference = 28FE9D221CEAC5B300F6C4F1 /* Cumbre Postventa 2016.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28FE9D2C1CEAC5B300F6C4F1 /* Cumbre Postventa 2016UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FE9D3C1CEAC5B300F6C4F1 /* Build configuration list for PBXNativeTarget "Cumbre Postventa 2016UITests" */;
+			buildPhases = (
+				50C72C1A2408C4CE0DD21407 /* 📦 Check Pods Manifest.lock */,
+				28FE9D291CEAC5B300F6C4F1 /* Sources */,
+				28FE9D2A1CEAC5B300F6C4F1 /* Frameworks */,
+				28FE9D2B1CEAC5B300F6C4F1 /* Resources */,
+				684DEFEB48893069ED00F824 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28FE9D2F1CEAC5B300F6C4F1 /* PBXTargetDependency */,
+			);
+			name = "Cumbre Postventa 2016UITests";
+			productName = DaimlerUITests;
+			productReference = 28FE9D2D1CEAC5B300F6C4F1 /* Cumbre Postventa 2016.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28FE9D031CEAC5B300F6C4F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = palindromo;
+				TargetAttributes = {
+					28FE9D0A1CEAC5B300F6C4F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B9E9GA7RYJ;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					28FE9D211CEAC5B300F6C4F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 28FE9D0A1CEAC5B300F6C4F1;
+					};
+					28FE9D2C1CEAC5B300F6C4F1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 28FE9D0A1CEAC5B300F6C4F1;
+					};
+				};
+			};
+			buildConfigurationList = 28FE9D061CEAC5B300F6C4F1 /* Build configuration list for PBXProject "Cumbre Postventa 2016" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28FE9D021CEAC5B300F6C4F1;
+			productRefGroup = 28FE9D0C1CEAC5B300F6C4F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28FE9D0A1CEAC5B300F6C4F1 /* Cumbre Postventa 2016 */,
+				28FE9D211CEAC5B300F6C4F1 /* Cumbre Postventa 2016Tests */,
+				28FE9D2C1CEAC5B300F6C4F1 /* Cumbre Postventa 2016UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28FE9D091CEAC5B300F6C4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2813C8911CED2F0300999FE3 /* 06.png in Resources */,
+				2813C88E1CED2F0300999FE3 /* 03.png in Resources */,
+				2813C8A51CED39FC00999FE3 /* FondoApp.png in Resources */,
+				2813C8941CED2F0300999FE3 /* 09.png in Resources */,
+				2813C8921CED2F0300999FE3 /* 07.png in Resources */,
+				9D316F551CF14942004BC6DF /* Splash_1080.png in Resources */,
+				28FE9D1C1CEAC5B300F6C4F1 /* LaunchScreen.storyboard in Resources */,
+				2813C8951CED2F0300999FE3 /* 010.png in Resources */,
+				2813C8901CED2F0300999FE3 /* 05.png in Resources */,
+				2813C8931CED2F0300999FE3 /* 08.png in Resources */,
+				2813C87D1CECEB6E00999FE3 /* Vista6.png in Resources */,
+				2813C89C1CED36AF00999FE3 /* 03_Agenda.png in Resources */,
+				2813C88F1CED2F0300999FE3 /* 04.png in Resources */,
+				2813C89B1CED36AF00999FE3 /* 01_Cumbre.png in Resources */,
+				2813C8A11CED36B500999FE3 /* Sede.png in Resources */,
+				2813C8A31CED39F600999FE3 /* Logos_footer.png in Resources */,
+				28FE9D191CEAC5B300F6C4F1 /* Assets.xcassets in Resources */,
+				2813C89D1CED36AF00999FE3 /* 04_Notificaciones.png in Resources */,
+				2813C89E1CED36AF00999FE3 /* 05_Presentaciones.png in Resources */,
+				2813C89F1CED36AF00999FE3 /* 06_Fotografias.png in Resources */,
+				2813C87F1CECFBFA00999FE3 /* Vista6.pdf in Resources */,
+				28CB647A1D060E7E003ED81E /* Vista8_Agenda.pdf in Resources */,
+				2813C8811CED23C400999FE3 /* FotoSede.png in Resources */,
+				2813C87B1CECE75100999FE3 /* 01.png in Resources */,
+				28FE9D141CEAC5B300F6C4F1 /* Main.storyboard in Resources */,
+				2813C88D1CED2F0300999FE3 /* 02.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FE9D201CEAC5B300F6C4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FE9D2B1CEAC5B300F6C4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		065E86AA8A24B6FA232960F2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cumbre Postventa 2016Tests/Pods-Cumbre Postventa 2016Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50C72C1A2408C4CE0DD21407 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		684DEFEB48893069ED00F824 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cumbre Postventa 2016UITests/Pods-Cumbre Postventa 2016UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		823FB75FE5CB271588E81273 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91E581EC76D8DDDE042A2F59 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cumbre Postventa 2016Tests/Pods-Cumbre Postventa 2016Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B137AA634FEA4056D4A899EA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cumbre Postventa 2016/Pods-Cumbre Postventa 2016-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAB13A7FE35B063E486A84DC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cumbre Postventa 2016/Pods-Cumbre Postventa 2016-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B50F41DA234D0093B608AD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28FE9D071CEAC5B300F6C4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FE9D5F1CEAE0F600F6C4F1 /* fotografiasViewController.swift in Sources */,
+				284D05B21D0F1A4A00C956A2 /* t1ViewController.swift in Sources */,
+				28FE9D111CEAC5B300F6C4F1 /* ViewController.swift in Sources */,
+				284D05B81D0F230900C956A2 /* HomeUno.swift in Sources */,
+				28FE9D5B1CEAE0E000F6C4F1 /* avisosViewController.swift in Sources */,
+				284D05AC1D0F193100C956A2 /* listadoAgendaViewController.swift in Sources */,
+				28FE9D641CEAEBF500F6C4F1 /* vistaPresentacionesViewController.swift in Sources */,
+				2805D3B11D130B6C0020E6F8 /* miercolesViewController.swift in Sources */,
+				284D05BA1D0F231200C956A2 /* HomeDos.swift in Sources */,
+				284D05BE1D0F232100C956A2 /* LocationUno.swift in Sources */,
+				28FE9D531CEAE07900F6C4F1 /* registroViewController.swift in Sources */,
+				9D170F5C1CF875730051A9F0 /* LocationAvisos.swift in Sources */,
+				284D05C21D0F232E00C956A2 /* LocationTres.swift in Sources */,
+				2805D3B71D130E930020E6F8 /* v3ViewController.swift in Sources */,
+				28FE9D0F1CEAC5B300F6C4F1 /* AppDelegate.swift in Sources */,
+				2805D3AB1D130B2A0020E6F8 /* menuFotoViewController.swift in Sources */,
+				28FE9D621CEAE1AC00F6C4F1 /* menuViewController.swift in Sources */,
+				28FE9D551CEAE0BF00F6C4F1 /* cumbreViewController.swift in Sources */,
+				28FE9D591CEAE0D400F6C4F1 /* agendaViewController.swift in Sources */,
+				28FE9D5D1CEAE0EC00F6C4F1 /* presentacionesViewController.swift in Sources */,
+				2805D3AD1D130B510020E6F8 /* lunesFotoViewController.swift in Sources */,
+				9D497EB31CF7BA8E00D90DB5 /* avisoViewController.swift in Sources */,
+				2805D3AF1D130B620020E6F8 /* martesFotoViewController.swift in Sources */,
+				284D05BC1D0F231900C956A2 /* HomeTres.swift in Sources */,
+				28FE9D6C1CEB08F700F6C4F1 /* vistaFotografiasViewController.swift in Sources */,
+				284D05C01D0F232700C956A2 /* LocationDos.swift in Sources */,
+				2877DAE01CF8BB3400BBA1DE /* fotosFullViewController.swift in Sources */,
+				284D05B01D0F19E100C956A2 /* listadoTresViewController.swift in Sources */,
+				2805D3B31D130E810020E6F8 /* v1ViewController.swift in Sources */,
+				284D05B61D0F1A6100C956A2 /* t3ViewController.swift in Sources */,
+				28FE9D681CEAEE0300F6C4F1 /* HomeModel.swift in Sources */,
+				9D170F641CF87E470051A9F0 /* AWSMobileClient.swift in Sources */,
+				9D170F5A1CF875630051A9F0 /* HomeAvisos.swift in Sources */,
+				28FE9D171CEAC5B300F6C4F1 /* Daimler.xcdatamodeld in Sources */,
+				9D170F681CF8AAD00051A9F0 /* UtilityFunctions.swift in Sources */,
+				9D497EB11CF7AF8C00D90DB5 /* sedeBlockViewController.swift in Sources */,
+				2877DAE21CF8BC3200BBA1DE /* fotoFullViewController.swift in Sources */,
+				284D05B41D0F1A5700C956A2 /* t2ViewController.swift in Sources */,
+				2805D3B51D130E8A0020E6F8 /* v2ViewCOntroller.swift in Sources */,
+				28FE9D661CEAEDCA00F6C4F1 /* graciasViewController.swift in Sources */,
+				28FE9D6A1CEAEE0C00F6C4F1 /* LocationModel.swift in Sources */,
+				284D05AE1D0F19D500C956A2 /* listadoDosViewController.swift in Sources */,
+				9D497EAF1CF7AEBE00D90DB5 /* menuBlockViewController.swift in Sources */,
+				28FE9D571CEAE0C900F6C4F1 /* sedeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FE9D1E1CEAC5B300F6C4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FE9D271CEAC5B300F6C4F1 /* DaimlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FE9D291CEAC5B300F6C4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FE9D321CEAC5B300F6C4F1 /* DaimlerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28FE9D241CEAC5B300F6C4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28FE9D0A1CEAC5B300F6C4F1 /* Cumbre Postventa 2016 */;
+			targetProxy = 28FE9D231CEAC5B300F6C4F1 /* PBXContainerItemProxy */;
+		};
+		28FE9D2F1CEAC5B300F6C4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28FE9D0A1CEAC5B300F6C4F1 /* Cumbre Postventa 2016 */;
+			targetProxy = 28FE9D2E1CEAC5B300F6C4F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28FE9D121CEAC5B300F6C4F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FE9D131CEAC5B300F6C4F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28FE9D1A1CEAC5B300F6C4F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28FE9D1B1CEAC5B300F6C4F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28FE9D341CEAC5B300F6C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28FE9D351CEAC5B300F6C4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28FE9D371CEAC5B300F6C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDC068A4C27DE0A1F47B67C /* Pods-Cumbre Postventa 2016.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AmazonAws",
+				);
+				INFOPLIST_FILE = Daimler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.palindromo.Daimler;
+				PRODUCT_NAME = "Cumbre Postventa 2016";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		28FE9D381CEAC5B300F6C4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506247FC78C60972DCB4325E /* Pods-Cumbre Postventa 2016.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AmazonAws",
+				);
+				INFOPLIST_FILE = Daimler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.palindromo.Daimler;
+				PRODUCT_NAME = "Cumbre Postventa 2016";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		28FE9D3A1CEAC5B300F6C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D64C625359FAE67A2A54C59 /* Pods-Cumbre Postventa 2016Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DaimlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.palindromo.DaimlerTests;
+				PRODUCT_NAME = "Cumbre Postventa 2016";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cumbre Postventa 2016.app/Cumbre Postventa 2016";
+			};
+			name = Debug;
+		};
+		28FE9D3B1CEAC5B300F6C4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9914917409B8C1F5A6D5642A /* Pods-Cumbre Postventa 2016Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DaimlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.palindromo.DaimlerTests;
+				PRODUCT_NAME = "Cumbre Postventa 2016";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cumbre Postventa 2016.app/Cumbre Postventa 2016";
+			};
+			name = Release;
+		};
+		28FE9D3D1CEAC5B300F6C4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B58DD6EAA020A9F83D388E /* Pods-Cumbre Postventa 2016UITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DaimlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.palindromo.DaimlerUITests;
+				PRODUCT_NAME = "Cumbre Postventa 2016";
+				TEST_TARGET_NAME = Daimler;
+			};
+			name = Debug;
+		};
+		28FE9D3E1CEAC5B300F6C4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9200F30EE8FDDE178D6766 /* Pods-Cumbre Postventa 2016UITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DaimlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.palindromo.DaimlerUITests;
+				PRODUCT_NAME = "Cumbre Postventa 2016";
+				TEST_TARGET_NAME = Daimler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28FE9D061CEAC5B300F6C4F1 /* Build configuration list for PBXProject "Cumbre Postventa 2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FE9D341CEAC5B300F6C4F1 /* Debug */,
+				28FE9D351CEAC5B300F6C4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FE9D361CEAC5B300F6C4F1 /* Build configuration list for PBXNativeTarget "Cumbre Postventa 2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FE9D371CEAC5B300F6C4F1 /* Debug */,
+				28FE9D381CEAC5B300F6C4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FE9D391CEAC5B300F6C4F1 /* Build configuration list for PBXNativeTarget "Cumbre Postventa 2016Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FE9D3A1CEAC5B300F6C4F1 /* Debug */,
+				28FE9D3B1CEAC5B300F6C4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FE9D3C1CEAC5B300F6C4F1 /* Build configuration list for PBXNativeTarget "Cumbre Postventa 2016UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FE9D3D1CEAC5B300F6C4F1 /* Debug */,
+				28FE9D3E1CEAC5B300F6C4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28FE9D151CEAC5B300F6C4F1 /* Daimler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28FE9D161CEAC5B300F6C4F1 /* Daimler.xcdatamodel */,
+			);
+			currentVersion = 28FE9D161CEAC5B300F6C4F1 /* Daimler.xcdatamodel */;
+			path = Daimler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28FE9D031CEAC5B300F6C4F1 /* Project object */;
+}

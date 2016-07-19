@@ -1,4 +1,4 @@
-//
+    //
 //  AppDelegate.swift
 //  Daimler
 //
@@ -7,17 +7,22 @@
 //
 
 import UIKit
-import CoreData
+import AWSMobileAnalytics
+import AWSSNS
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        return true
+        return AWSMobileClient.sharedInstance.didFinishLaunching(application, withOptions: launchOptions)
+    }
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+        return AWSMobileClient.sharedInstance.withApplication(application, withURL: url, withSourceApplication: sourceApplication, withAnnotation: annotation)
     }
 
     func applicationWillResignActive(application: UIApplication) {
@@ -36,6 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        AWSMobileClient.sharedInstance.applicationDidBecomeActive(application)
     }
 
     func applicationWillTerminate(application: UIApplication) {
@@ -43,6 +49,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
+    
+    
+    func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData){
+        
+        AWSMobileClient.sharedInstance.application(application, didRegisterForRemoteNotificationsWithDeviceToken: deviceToken)
+    }
+    
+    func application(application: UIApplication, didRegisterForRemoteNotificationsWithError error: NSError) {
+        
+        AWSMobileClient.sharedInstance.application(application,didFailToRegisterForRemoteNotificationsWithError: error)
+    }
+    
+    
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]){
+        AWSMobileClient.sharedInstance.application(application, didReceiveRemoteNotification: userInfo)
+    }
+
+    
+    
 
     // MARK: - Core Data stack
 
@@ -106,6 +131,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+    
 
 }
 
